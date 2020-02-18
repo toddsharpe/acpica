@@ -173,7 +173,7 @@
  * order to override the definitions.
  */
 #elif defined(_AED_EFI) || defined(_GNU_EFI) || defined(_EDK2_EFI)
-#include "acefiex.h"
+//#include "acefiex.h"
 
 #endif
 
