@@ -487,11 +487,11 @@
 
 /* Use the standard headers from the standard locations */
 
-#include <stdlib.h>
-#include <string.h>
-#include <ctype.h>
+#include <crt_stdlib.h>
+#include <crt_string.h>
+#include <crt_ctype.h>
 #if defined (ACPI_APPLICATION) || defined(ACPI_LIBRARY)
-#include <stdio.h>
+#include <crt_stdio.h>
 #include <fcntl.h>
 #include <errno.h>
 #include <time.h>

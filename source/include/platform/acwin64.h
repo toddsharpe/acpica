@@ -152,8 +152,8 @@
 #ifndef __ACWIN64_H__
 #define __ACWIN64_H__
 
-//#define ACPI_USE_STANDARD_HEADERS
-//#define ACPI_USE_SYSTEM_CLIBRARY
+#define ACPI_USE_STANDARD_HEADERS
+#define ACPI_USE_SYSTEM_CLIBRARY
 
  /* Note: do not include any C library headers here */
 
